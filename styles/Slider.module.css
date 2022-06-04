@@ -1,8 +1,10 @@
 .item {
-  min-height: 50rem;
-  min-width: 50rem;
+  min-height: 40rem;
+  min-width: 40rem;
   padding: 45px;
   position: relative;
+  margin-left: 2rem;
+  margin-right: 2rem;
   /* display: block; */
   /* border: 2px solid red; */
 }
@@ -16,14 +18,11 @@
 
 .inner {
   display: flex;
-  /* background: lightblue; */
-  border: 2px solid gray;
 }
 
 .carousel {
   overflow: hidden;
   cursor: grab;
-  /* background: rgb(230, 173, 173); */
 }
 
 .slider {
