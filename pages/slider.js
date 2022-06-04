@@ -26,8 +26,6 @@ function Slider() {
                   src={pic}
                   alt="pic"
                   layout="fill"
-                  sizes="40vw"
-                  height={700}
                   className={style.pic}
                 />
               </motion.div>

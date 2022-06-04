@@ -1,12 +1,10 @@
 .item {
   min-height: 40rem;
   min-width: 40rem;
-  padding: 45px;
+  /* padding: 45px; */
   position: relative;
   margin-left: 2rem;
   margin-right: 2rem;
-  /* display: block; */
-  /* border: 2px solid red; */
 }
 
 .pic {
