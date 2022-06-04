@@ -5,7 +5,7 @@
 }
 body {
   background: linear-gradient(to right, #2c5364, #203a43);
-  margin: 5% 15%;
+  /* margin: 5% 15%; */
 }
 .App {
   min-height: 100vh;

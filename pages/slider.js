@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-import style from "../styles/Slider.module.css";
 import pics from "../components/images";
+import style from "../styles/Slider.module.css";
 import { useRef, useEffect, useState } from "react";
 
 function Slider() {
@@ -24,8 +24,10 @@ function Slider() {
               <motion.div key={index} className={style.item}>
                 <Image
                   src={pic}
-                  layout="fixed"
                   alt="pic"
+                  layout="fill"
+                  sizes="40vw"
+                  height={700}
                   className={style.pic}
                 />
               </motion.div>
