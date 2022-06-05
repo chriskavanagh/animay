@@ -1,8 +1,7 @@
 .item {
-  min-height: 40rem;
+  min-height: 45rem; /* must use min-height & min-width or won't work */
   min-width: 40rem;
-  /* padding: 45px; */
-  position: relative;
+  position: relative; /* must use with layout="fill" (nextjs) */
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -24,5 +23,5 @@
 }
 
 .slider {
-  margin: 5% 10%;
+  margin: 7% 10%;
 }
