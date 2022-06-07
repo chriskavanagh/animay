@@ -11,9 +11,7 @@ function Slider() {
   const carousel = useRef();
 
   useEffect(() => {
-    //console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-    //console.log(width);
   }, []);
   return (
     <div className={style.slider}>
