@@ -2,18 +2,21 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.234.0/containers/ubuntu
 {
   // Set *default* container specific settings.json values on container create.
-  "settings": {},
+  "settings": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
-    "steoates.autoimport",
-    "codezombiech.gitignore",
-    "eg2.vscode-npm-script",
-    "christian-kohler.npm-intellisense",
-    "esbenp.prettier-vscode",
-    "2gua.rainbow-brackets",
-    "styled-components.vscode-styled-components"
-  ],
+	"steoates.autoimport",
+	"codezombiech.gitignore",
+	"eg2.vscode-npm-script",
+	"christian-kohler.npm-intellisense",
+	"esbenp.prettier-vscode",
+	"2gua.rainbow-brackets",
+	"styled-components.vscode-styled-components",
+	"formulahendry.auto-close-tag",
+	"formulahendry.auto-rename-tag",
+	"mikestead.dotenv"
+],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
