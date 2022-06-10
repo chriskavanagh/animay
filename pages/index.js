@@ -14,6 +14,7 @@ export default function Home() {
         style={{ borderRadius: "20px" }}
       >
         <motion.h2 layout="position">Framer Motion 🚀</motion.h2>
+
         {isOpen && (
           <motion.div
             transition={{ duration: 1 }}

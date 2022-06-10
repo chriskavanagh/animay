@@ -1,13 +1,12 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { useRouter } from "next/router";
 import pics from "../components/images";
 import style from "../styles/Slider.module.css";
 import { useRef, useEffect, useState } from "react";
 
 function Slider() {
-  const router = useRouter();
   const [width, setWidth] = useState(0); // -4781
+  console.log("🚀 ~ file: slider.js ~ line 9 ~ Slider ~ width", width);
   const carousel = useRef();
 
   useEffect(() => {
